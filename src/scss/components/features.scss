@@ -1,4 +1,6 @@
 .features-section {
+  @include media(desktop) {
+  }
 }
 
 .features-bg-wrapper {
