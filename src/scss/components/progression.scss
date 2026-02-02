@@ -1,0 +1,89 @@
+.progression-section {
+  @include media(desktop) {
+  }
+}
+
+.progression-bg-wrapper {
+  padding-top: 80px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    padding-top: 160px;
+    max-width: 1440px;
+  }
+}
+
+.progression-container {
+  padding: 0;
+
+  @include media(desktop) {
+    padding: 0 80px;
+  }
+}
+
+.progression-title {
+  @include media(desktop) {
+  }
+}
+
+.progression-content-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  @include media(desktop) {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+}
+
+.progression-img-wrapper {
+  margin-bottom: 20px;
+
+  @include media(desktop) {
+    margin-bottom: 0;
+    order: 2;
+  }
+}
+
+.progression-img {
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    min-width: 414px;
+    margin: 0;
+  }
+}
+
+.progression-text {
+  padding: 0 20px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2e2e;
+
+  @include media(desktop) {
+    padding: 0;
+    max-width: 413px;
+  }
+}
+
+.progression-top-text {
+  margin-bottom: 12px;
+
+  @include media(desktop) {
+    margin-bottom: 0;
+    order: 1;
+  }
+}
+
+.progression-bottom-text {
+  @include media(desktop) {
+    order: 3;
+  }
+}
