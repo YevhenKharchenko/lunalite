@@ -1,5 +1,5 @@
 .footer {
-  background: #477c55;
+  background: #b05f1b;
   padding-top: 34px;
   padding-bottom: 34px;
 
@@ -37,15 +37,11 @@
 .footer-link {
   display: flex;
   align-items: center;
-  font-family: 'Inter', sans-serif;
-  font-weight: 500;
-  font-size: 20px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  font-size: 22px;
   line-height: 1.5;
-  text-transform: uppercase;
-  background: linear-gradient(135deg, #e5ebdd 0%, #c8d3c2 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #f9d0a0;
   transition: color 0.3s ease-in-out;
 
   @include media(desktop) {
@@ -57,14 +53,11 @@
 }
 
 .footer-text {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Source Sans 3', sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.5;
-  background: linear-gradient(135deg, #e5ebdd 0%, #c8d3c2 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #f9d0a0;
 
   @include media(desktop) {
     text-align: center;

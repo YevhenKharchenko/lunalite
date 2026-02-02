@@ -1,11 +1,29 @@
 <section class="section hero-section" id="home">
   <div class="hero-bg-wrapper">
     <div class="container hero-container">
-      <h1 class="hero-main-title">Nothing Stays Still.</h1>
-      <div class="hero-text-wrapper">
-        <p class="hero-text">
-          Solve puzzles where shapes gently change as you move them.
-        </p>
+      <div class="hero-content-wrapper">
+        <picture>
+          <source
+            srcset="./img/progression/progression-img-desk.png"
+            media="(min-width: 1440px)"
+            width="630"
+            height="340" />
+          <source
+            srcset="./img/progression/progression-img-mob.png"
+            width="335"
+            height="181" />
+          <img
+            class="hero-title-img"
+            src="./img/hero/hero-title-mob.png"
+            alt="Title"
+            width="335"
+            height="181"
+        /></picture>
+        <div class="hero-btn-wrapper">
+          <svg class="playstore-icon" width="243" height="70">
+            <use href="./img/sprite.svg#icon-play"></use>
+          </svg>
+        </div>
       </div>
     </div>
   </div>
