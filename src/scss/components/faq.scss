@@ -1,24 +1,8 @@
 .faq-section {
-  @include media(desktop) {
-  }
-}
-
-.faq-bg-wrapper {
   padding-top: 80px;
-  max-width: 375px;
-  margin-left: auto;
-  margin-right: auto;
-  background-image: url(../img/faq/faq-bg-mob.jpg);
-  background-repeat: no-repeat;
-  background-position: top 155px center;
-  background-size: auto;
 
   @include media(desktop) {
     padding-top: 150px;
-    max-width: 1440px;
-    min-height: 1036px;
-    background-image: url(../img/faq/faq-bg-desk.jpg);
-    background-position: bottom center;
   }
 }
 
@@ -28,10 +12,7 @@
 }
 
 .faq-title {
-  margin-bottom: 456px;
-
   @include media(desktop) {
-    margin-bottom: 40px;
   }
 }
 
@@ -42,9 +23,6 @@
   gap: 16px;
 
   @include media(desktop) {
-    align-items: start;
-    min-height: 823px;
-    justify-content: center;
   }
 }
 
@@ -72,7 +50,7 @@
 }
 
 .faq-toggle-symbol {
-  border: 1px solid #c93a3a;
+  border: 1px solid #b05f1b;
   border-radius: 100%;
   display: flex;
   justify-content: center;
@@ -93,14 +71,14 @@
 }
 
 .faq-btn-text {
-  border: 1px solid #c93a3a;
+  border: 1px solid #b05f1b;
   border-radius: 20px;
   padding: 11px 17px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Source Sans 3', sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.5;
-  color: #e6e7ea;
+  color: #3e332b;
   text-align: left;
   width: 100%;
   transition: color 0.3s ease-in-out;
@@ -111,11 +89,11 @@
 
 .faq-bottom-text {
   border-radius: 20px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Source Sans 3', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #e6e7ea;
+  color: #3e332b;
   width: 100%;
   max-height: 0;
   overflow: hidden;
@@ -123,6 +101,8 @@
   opacity: 0;
 
   @include media(desktop) {
+    max-width: 576px;
+    margin-left: auto;
   }
 }
 
@@ -142,7 +122,7 @@
 }
 
 .faq-list-item.faq-open .faq-bottom-text {
-  border: 1px solid #c93a3a;
+  border: 1px solid #b05f1b;
   padding: 11px 17px;
 }
 

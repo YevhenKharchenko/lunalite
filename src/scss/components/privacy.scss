@@ -5,7 +5,7 @@
 }
 
 .policy-section {
-  background: linear-gradient(to right, #e5ebdd 0%, #c8d3c2 100%);
+  background: #f9d0a0;
   padding-top: 126px;
   padding-bottom: 80px;
 
@@ -16,12 +16,12 @@
 }
 
 .policy-main-title {
-  font-family: 'Sora', sans-serif;
-  font-weight: 600;
-  font-size: 36px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  font-size: 38px;
   line-height: 1.5;
   text-align: center;
-  color: #477c55;
+  color: #205144;
   margin-bottom: 32px;
 
   @include media(desktop) {
@@ -30,11 +30,11 @@
 }
 
 .policy-title {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Source Sans 3', sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.5;
-  color: #2e2e2e;
+  color: #3e332b;
   margin-bottom: 16px;
 
   @include media(desktop) {
@@ -42,11 +42,11 @@
 }
 
 .policy-text {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Source Sans 3', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #2e2e2e;
+  color: #3e332b;
 
   &:not(:last-child) {
     margin-bottom: 16px;
@@ -62,11 +62,11 @@
 }
 
 .policy-item {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Source Sans 3', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #2e2e2e;
+  color: #3e332b;
   margin-bottom: 8px;
 
   &:last-child {
@@ -78,10 +78,9 @@
 }
 
 .policy-span {
-  text-decoration: underline;
+  font-weight: 700;
 }
 
 .policy-link {
-  text-decoration: underline;
-  word-wrap: break-word;
+  font-weight: 700;
 }

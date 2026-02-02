@@ -1,18 +1,12 @@
 .gameplay-section {
-}
-
-.gameplay-bg-wrapper {
   padding-top: 80px;
-  padding-bottom: 80px;
   max-width: 375px;
   margin-left: auto;
   margin-right: auto;
 
   @include media(desktop) {
-    padding-top: 160px;
-    padding-bottom: 163px;
+    padding-top: 150px;
     max-width: 1440px;
-    position: relative;
   }
 }
 
@@ -26,55 +20,54 @@
   }
 }
 
-.gameplay-content-wrapper {
+.gameplay-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
   @include media(desktop) {
-    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: start;
-    justify-content: end;
-    gap: 237px;
+    gap: 20px;
   }
 }
 
-.gameplay-img-wrapper {
-  margin-bottom: 20px;
+.gameplay-list-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 
   @include media(desktop) {
-    margin-bottom: 0;
+    width: 100%;
+    max-width: 630px;
+
+    &:nth-child(3) {
+      flex-direction: row-reverse;
+    }
+
+    &:nth-child(4) {
+      flex-direction: row-reverse;
+    }
   }
 }
 
 .gameplay-img {
-  margin-left: auto;
-  margin-right: auto;
+  min-width: 197px;
 
   @include media(desktop) {
-    margin: 0;
   }
 }
 
-.gameplay-text {
-  font-family: 'Inter', sans-serif;
+.gameplay-item-text {
+  font-family: 'DM Sans', sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.5;
-  color: #2e2e2e;
+  color: #3e332b;
 
   @include media(desktop) {
-    max-width: 630px;
-  }
-}
-
-.gameplay-text-span {
-  font-weight: 700;
-}
-
-.gameplay-desk-img {
-  display: none;
-
-  @include media(desktop) {
-    display: block;
-    position: absolute;
-    bottom: 135px;
-    left: 445px;
+    max-width: 305px;
   }
 }
